@@ -8,9 +8,9 @@ B = np.array([[3, 2, 1, 4],
 
 C = np.array([[True, False, False],
               [True, True, True]])
-
 D = np.array([0.1, 0.3])
 
 list = [("A",A),("B",B),("C",C),("D",D)]
 for name,array in list:
     print(f"{name}:{np.all(array)}")
+
